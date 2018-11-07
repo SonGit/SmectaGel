@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2e29a7b1-bde3-4e4c-9f6c-cf4dc8a368cc",
+            "Value": {
+                "id": "0a88b883-3b4b-40e1-8287-5e2cd836bdf9",
+                "resourcePath": "sprites\\reset\\reset.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "320a3cf8-3086-48a3-822a-3bdf2c63654e",
             "Value": {
                 "id": "e58024aa-03ee-40b6-bd60-1e5ece81422f",
@@ -236,6 +244,14 @@
                 "id": "412f59a1-43ae-4c31-8bc6-2ffcbac70a04",
                 "resourcePath": "views\\623d739c-691a-4263-af96-4298b51ce4d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66942a8a-9c43-446f-8d3d-5eac7cbf9602",
+            "Value": {
+                "id": "d15e8a46-4d8d-464a-a940-3e688b003f19",
+                "resourcePath": "sprites\\sprite20\\sprite20.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,10 +471,26 @@
             }
         },
         {
+            "Key": "b7f8cac7-aa29-4cdf-bd2f-668b12e0dfd0",
+            "Value": {
+                "id": "4d9f1fbd-f555-46bf-b16c-f73acec16c8a",
+                "resourcePath": "objects\\btn_reset\\btn_reset.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b9d527db-78f2-455e-8029-7f4980b98f9d",
             "Value": {
                 "id": "b99fc669-7532-4fbb-a658-1c3fc089696b",
                 "resourcePath": "objects\\ba_thang_tuoi\\ba_thang_tuoi.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "baa461c2-cdd5-40c0-ab22-81f618a5b861",
+            "Value": {
+                "id": "bce7020f-d332-4496-8657-bdcf8d970ee9",
+                "resourcePath": "objects\\anim\\anim.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -476,6 +508,14 @@
                 "id": "f531c3a7-8bb6-46e7-8096-030d3f5722dd",
                 "resourcePath": "sprites\\s9\\s9.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c768ec2c-1f3d-488c-9ec4-b5269ce3160d",
+            "Value": {
+                "id": "1478fbce-0265-4a31-97c8-0ccb0dc6a08e",
+                "resourcePath": "objects\\wrong\\wrong.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -503,11 +543,11 @@
             }
         },
         {
-            "Key": "d39bc404-6c9c-449f-b1ef-69063d30edf8",
+            "Key": "d6879c34-6577-4395-ac12-a208d18f1876",
             "Value": {
-                "id": "c1f2050f-bfd0-4e21-b989-5126ad0655e8",
-                "resourcePath": "scripts\\script0\\script0.yy",
-                "resourceType": "GMScript"
+                "id": "bced3188-e915-4c5c-9dc5-5aa845959c0c",
+                "resourcePath": "objects\\virus\\virus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -591,6 +631,14 @@
             }
         },
         {
+            "Key": "f72104b8-9e26-4749-8c00-5f151282a62b",
+            "Value": {
+                "id": "833032c6-aa0e-4687-aa56-758f2d3232b2",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
             "Value": {
                 "id": "f80ab9ad-d6a8-4800-ae22-701e069d3991",
@@ -621,10 +669,18 @@
                 "resourcePath": "objects\\san_xuat\\san_xuat.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fc5ad2e1-2136-43da-8f3a-977b43e08585",
+            "Value": {
+                "id": "7f60538a-8b54-42dc-87d2-5b52061ca383",
+                "resourcePath": "objects\\right\\right.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        "d39bc404-6c9c-449f-b1ef-69063d30edf8"
+        
     ],
     "tutorial": ""
 }

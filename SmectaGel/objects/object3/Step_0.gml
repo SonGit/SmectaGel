@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if keyboard_check(cr_uparrow)
+if keyboard_check(vk_up)
     {
         _hp+=5
     }
@@ -11,7 +11,6 @@ if keyboard_check(vk_down)
 
     
 // to limit the hp and mp
-
 if _hp>=_hpm
     {
         _hp=_hpm
