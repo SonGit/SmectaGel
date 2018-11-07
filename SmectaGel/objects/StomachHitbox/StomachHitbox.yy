@@ -2,7 +2,7 @@
     "id": "05c9b2a1-12f6-494e-a55e-d9fca7098571",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object1",
+    "name": "StomachHitbox",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "spriteId": "231aa722-0098-4053-bf4c-3cb815226b1d",
+    "visible": false
 }
