@@ -10,18 +10,18 @@ if (score > 0 && score <7)
    }
 
 for(j = 0; j<score;j++){
+	if(score <10){
    enemy[j].active = true;
 
-if (score>=5)
+	}
+if (score >= 10)
 {
-	image_speed = 50;
-	enemy[7].active = true;
+	image_speed = 3;
+	//enemy[7].active = true;
 	enemy[8].active = true;
 	enemy[9].active = true;
-	cd -= 1/room_speed;
+
 }
 
-if(cd<=0){
-	room_goto(Scene_4);
-}
+
 }

@@ -1,10 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-with(inst_64144B68)
-{
-global._temp -= 1;	
-}
 
+global._temp -= 1;	
+show_debug_message(score);
 if(arr != noone){
 instance_destroy(arr);
 }

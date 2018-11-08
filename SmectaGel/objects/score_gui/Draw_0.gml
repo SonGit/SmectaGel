@@ -9,7 +9,7 @@ with(inst_64144B68){
 	draw_self();
 	draw_set_font(font0);
 	draw_set_color(c_red);
-	draw_text(g,l,score*10);
+	draw_text(g,l,global._temp*10);
 
 
 }

@@ -5,7 +5,7 @@ score=0;
 global._temp= 0;
 image_speed = 0;
 
-cd =3;
+cd =8;
 var i;
 var j;
 for (i = 0; i < instance_number(virus); i += 1)
