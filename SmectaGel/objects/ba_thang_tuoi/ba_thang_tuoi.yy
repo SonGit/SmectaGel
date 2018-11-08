@@ -6,9 +6,9 @@
     "eventList": [
         
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "49f65408-feca-49a0-884b-f3056322bd1b",
     "overriddenProperties": null,
-    "parentObjectId": "c768ec2c-1f3d-488c-9ec4-b5269ce3160d",
+    "parentObjectId": "9c68083a-b691-4559-b347-a83b92bd7629",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -4,9 +4,18 @@
     "mvc": "1.0",
     "name": "StomachHitbox",
     "eventList": [
-        
+        {
+            "id": "9e3d3c5a-0f23-4d6e-94ce-ebda5363bcb4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "05c9b2a1-12f6-494e-a55e-d9fca7098571"
+        }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "231aa722-0098-4053-bf4c-3cb815226b1d",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,

@@ -3,4 +3,4 @@
 hp =100;
 curhp = hp;
 active = false;
-
+image_speed = random(10);
