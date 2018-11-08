@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 score=0;
-_temp= 0;
+global._temp= 0;
 image_speed = 0;
 
 cd =3;

@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(_temp>score)
+if(global._temp>score)
 {
-	score = _temp
+	score = global._temp
 }
 if (score > 0 && score <7)
   {
