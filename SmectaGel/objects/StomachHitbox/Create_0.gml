@@ -41,6 +41,8 @@ for (var i = 0; i < 7; i++) {
 	{
 		x = g;
 		y = l;
+		orgX = x;
+		orgY = y;
 	}
 
 }
@@ -56,6 +58,8 @@ for (var i = 7; i < 10; i++) {
 	{
 		x = g;
 		y = l;
+		orgX = x;
+		orgY = y;
 	}
 	z ++;
 }
