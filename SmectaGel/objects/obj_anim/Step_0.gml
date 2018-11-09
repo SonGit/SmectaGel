@@ -16,10 +16,10 @@ if (score > 0 && score <10)
    
 stage = image_index / 10;
 
-for(j = 0; j<global._temp;j++){
-	if(global._temp<=10){
-	enemy[j].active = true;}
-}
+for(j = 0; j<stage;j++){
+	enemy[j].active = true;
+	}
+
 
 
 
@@ -38,11 +38,12 @@ if (score >= 10)
 if(global.win == true){
 	if(image_index >=image_number-2){
 		room_goto(Scene_5);
-	}else image_speed = 2;
-
-//	cd -= 1/room_speed;
-//	if(cd<0){room_goto(Scene_5);
-
+	}else {
+		image_speed = 2;
+		for(i=stage;i<10;i++){
+		enemy[i].active = true;
+		}
+	}
 }
 
 
