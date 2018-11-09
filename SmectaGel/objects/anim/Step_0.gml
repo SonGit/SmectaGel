@@ -4,7 +4,7 @@ if(global._temp>score)
 {
 	score = global._temp
 }
-if (score > 0 && score <7)
+if (score > 0 && score <10)
   {
    image_index = score;
    }
