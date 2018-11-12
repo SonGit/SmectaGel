@@ -2,11 +2,11 @@
 // You can write your code in this editor
 if(global.isSetting == true)
 {
-	x = 224;
-	y = 288;
+	x = 672;
+	y = 512;
 }
 else 
 {
-	x = 1500;
-	y = 600;
+	x = 2000;
+	y = 1400;
 }

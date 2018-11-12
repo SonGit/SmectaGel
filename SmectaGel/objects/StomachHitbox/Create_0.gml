@@ -44,7 +44,7 @@ for (var i = 0; i < 7; i++) {
 		orgX = x;
 		orgY = y;
 		
-		var copy = instance_copy(true);
+		var copy = instance_create_depth(900, 500, 0, object_index);
 		with(copy)
 		{
 			copy.isDummy = true;
@@ -68,7 +68,7 @@ for (var i = 7; i < 10; i++) {
 		y = l;
 		orgX = x;
 		orgY = y;
-		var copy = instance_copy(true);
+		var copy = instance_create_depth(900, 500, 0, object_index);
 		with(copy)
 		{
 			copy.isDummy = true;

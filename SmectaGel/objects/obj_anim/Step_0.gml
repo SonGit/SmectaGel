@@ -8,7 +8,7 @@ if(global.cur>global.scr)
 if (global.scr > 0 && global.scr <100)
   {
 	  
-   if( image_index<global.scr){
+   if( image_index+1<global.scr){
    image_speed = 2;
    }else  image_speed = 0;
    }
