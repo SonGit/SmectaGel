@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-selected = false;
-show_debug_message("AAAA");
+if(!isDummy)
+{
+	selected = false;
 x = orgX;
 y = orgY;
+}
