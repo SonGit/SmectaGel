@@ -1,13 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!isDummy)
-{
-global._temp += 2;	
+
+global.cur += global.step;	
 
 show_debug_message(score);
+
 if(arr != noone){
 instance_destroy(arr);
 }
 
-instance_destroy(self);	
-}
+instance_destroy(self);

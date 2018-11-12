@@ -3,4 +3,4 @@
 
 
 draw_set_font(font0);
-draw_text(x,y,string(round(_timer)));
+draw_text(x,y,string(round(global.timer)));

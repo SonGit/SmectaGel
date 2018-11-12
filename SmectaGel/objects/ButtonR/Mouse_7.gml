@@ -3,6 +3,6 @@
 if(!isDummy)
 {
 	selected = false;
-x = orgX;
-y = orgY;
+	x = orgX;
+	y = orgY;
 }

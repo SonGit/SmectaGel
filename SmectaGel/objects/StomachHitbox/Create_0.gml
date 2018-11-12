@@ -43,6 +43,14 @@ for (var i = 0; i < 7; i++) {
 		y = l;
 		orgX = x;
 		orgY = y;
+		
+		var copy = instance_create_depth(900, 500, 0, object_index);
+		with(copy)
+		{
+			copy.isDummy = true;
+			copy.x = g;
+			copy.y = l;
+		}
 	}
 
 }
@@ -60,6 +68,13 @@ for (var i = 7; i < 10; i++) {
 		y = l;
 		orgX = x;
 		orgY = y;
+		var copy = instance_create_depth(900, 500, 0, object_index);
+		with(copy)
+		{
+			copy.isDummy = true;
+			copy.x = g;
+			copy.y = l;
+		}
 	}
 	z ++;
 }

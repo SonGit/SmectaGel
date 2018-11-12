@@ -73,7 +73,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "402cff95-2e48-43db-9e0a-37af26d195a6",
+            "id": "7ae6fed1-23c9-440e-8ae0-e4bfea1e4c0a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
