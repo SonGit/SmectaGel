@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 
-if(!global.win){
-	_timer-=1/room_speed;
+if(!global.win&&!global.isSetting){
+	global.timer-=1/room_speed;
 	
 }
-if(_timer <=0){
+if(global.timer <=0&&!global.isSetting){
 	if(score >=5){
 		global.win = true;
 	}

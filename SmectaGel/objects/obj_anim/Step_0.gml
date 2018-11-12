@@ -1,14 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(global._temp>score)
+if(global.cur>global.scr)
 {
-	score = global._temp
+	global.scr = global.cur;
 }
 
-if (score > 0 && score <10)
+if (global.scr > 0 && global.scr <100)
   {
 	  
-   if( image_index<score*10){
+   if( image_index<global.scr){
    image_speed = 2;
    }else  image_speed = 0;
    }
@@ -19,18 +19,8 @@ stage = image_index / 10;
 for(j = 0; j<stage;j++){
 	enemy[j].active = true;
 	}
-
-
-
-
-	//if(score <10){
-   //enemy[j].active = true;
-
-	//}
 	
-	
-	
-if (score >= 10)
+if (global.scr >= 100)
 {
 	global.win = true;
 }
@@ -40,10 +30,7 @@ if(global.win == true){
 		room_goto(Scene_5);
 	}else {
 		image_speed = 2;
-		for(i=stage;i<10;i++){
-		enemy[i].active = true;
 		}
-	}
 }
 
 

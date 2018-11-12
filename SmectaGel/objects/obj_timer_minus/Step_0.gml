@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_speed = 30;
+
+x = obj_settings.x + 336;
+y = obj_settings.y + 175;

@@ -1,3 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_speed = 30;
+if(global.isSetting == true)
+{
+	x = 224;
+	y = 288;
+}
+else 
+{
+	x = 1500;
+	y = 600;
+}

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global._temp += 2;	
+global.cur += global.step;	
 
 show_debug_message(score);
 

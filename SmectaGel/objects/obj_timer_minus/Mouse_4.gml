@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_speed = 30;
+if(global.timer >0){
+global.timer -= 1;
+}
