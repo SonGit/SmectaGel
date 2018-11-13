@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2447620e-05fa-4522-ad90-4f9c67ad1eb9",
+            "Value": {
+                "id": "4f18cde5-a65e-4b35-8588-8d773faa4bd7",
+                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2abe1400-d308-473c-a8ab-7f9ce4ea64e8",
             "Value": {
                 "id": "2ce6852f-13d3-4553-9602-1bdc30ebb53e",
@@ -260,6 +268,14 @@
                 "id": "5d4e5428-3020-411e-a537-59a7b5ce3019",
                 "resourcePath": "options\\ps4\\options_ps4.yy",
                 "resourceType": "GMPS4Options"
+            }
+        },
+        {
+            "Key": "3af8cf56-a120-4417-99a9-0283939644b7",
+            "Value": {
+                "id": "9a6bf168-c03d-4423-9f12-337f4ab55c96",
+                "resourcePath": "objects\\obj_scorebar\\obj_scorebar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
