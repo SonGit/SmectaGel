@@ -5,16 +5,6 @@
     "name": "arrow",
     "eventList": [
         {
-            "id": "d168e580-3db7-4b5d-89e6-25f94cbfb18c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "2d5a50f2-c690-40e9-95c0-f3b4ae2cc1e7"
-        },
-        {
             "id": "60d90600-e357-4e5c-bff3-9c36c1278695",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "2d5a50f2-c690-40e9-95c0-f3b4ae2cc1e7"
+        },
+        {
+            "id": "e89c1da2-60b5-4384-a7fa-aeb22e298ca2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "2d5a50f2-c690-40e9-95c0-f3b4ae2cc1e7"
         }
     ],
@@ -41,7 +41,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "ab896534-2b47-4a09-952b-9d7325e94f34",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "isDraw",
+            "varType": 3
+        }
+    ],
     "solid": false,
     "spriteId": "b57e9ee5-04c6-4834-939d-1f666c9cc02a",
     "visible": true

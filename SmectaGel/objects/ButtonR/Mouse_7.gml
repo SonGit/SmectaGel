@@ -5,4 +5,5 @@ if(!isDummy)
 	selected = false;
 	x = orgX;
 	y = orgY;
+	arr.isDraw = false;
 }
