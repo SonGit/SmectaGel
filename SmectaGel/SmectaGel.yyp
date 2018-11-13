@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "3742b133-99c0-4501-b66e-4bc1ca9942d5",
+            "Value": {
+                "id": "b503eaa0-5c00-49c9-8cb1-3810b7a7fdad",
+                "resourcePath": "objects\\obj_healthbar\\obj_healthbar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38535971-fdc5-4336-8533-ba4ccf883d55",
             "Value": {
                 "id": "421eec9d-8791-4eb1-bf4a-dd44b372be34",

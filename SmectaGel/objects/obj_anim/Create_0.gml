@@ -7,7 +7,7 @@ room_speed = 30;
 global.win = false;
 global.scr =0;
 global.cur = 0;
-global.timer = 60;
+
 cd =20;
 
 for (i = 0; i < instance_number(virus); i += 1)
