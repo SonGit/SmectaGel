@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "d1d18c68-8cb3-4d83-98af-c7eb23841bc2",
+            "Value": {
+                "id": "3444d71a-cb3a-48c0-835b-0b005a39877a",
+                "resourcePath": "sprites\\spr_clock\\spr_clock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d52f8d97-9c0d-45b4-b67f-445f54d3dffd",
             "Value": {
                 "id": "f85e2980-0f00-4d9e-b2d9-affaec04c766",
