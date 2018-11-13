@@ -698,7 +698,7 @@
             "Key": "c49af6f1-93c6-4d0b-b623-5123ca776ce4",
             "Value": {
                 "id": "d1d7c7ec-5c7f-4d87-aa15-d21a37796324",
-                "resourcePath": "objects\\obj_draw\\obj_draw.yy",
+                "resourcePath": "objects\\obj_draw_roundhealth\\obj_draw_roundhealth.yy",
                 "resourceType": "GMObject"
             }
         },

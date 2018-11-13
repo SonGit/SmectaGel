@@ -32,7 +32,7 @@ ds_list_shuffle(correctList);
 ds_list_shuffle(wrongList);
 ds_list_shuffle(positionList);
 
-for (var i = 0; i < 7; i++) {
+for (var i = 0; i < 6; i++) {
 	
 	 var g = positionList[| i].x;
 	 var l = positionList[| i].y;
@@ -57,7 +57,7 @@ for (var i = 0; i < 7; i++) {
 
 z = 0;
 
-for (var i = 7; i < 10; i++) {
+for (var i = 6; i < 10; i++) {
 	
 	 var g = positionList[| i].x;
 	 var l = positionList[| i].y;

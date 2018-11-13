@@ -2,7 +2,7 @@
     "id": "c49af6f1-93c6-4d0b-b623-5123ca776ce4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_draw",
+    "name": "obj_draw_roundhealth",
     "eventList": [
         {
             "id": "19cd24ee-eac9-46dd-9334-6520454226cf",
