@@ -10,3 +10,4 @@ instance_destroy(arr);
 }
 
 instance_destroy(self);
+global.count ++;

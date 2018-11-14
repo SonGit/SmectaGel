@@ -33,5 +33,11 @@ if(global.win == true){
 		}
 }
 
-
+if(global.count == 10){
+	if(global.scr >= 50)
+	{
+		global.win = true;
+	}
+	room_goto(Scene_4);
+}
 

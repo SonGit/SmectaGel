@@ -7,6 +7,7 @@ room_speed = 30;
 global.win = false;
 global.scr =0;
 global.cur = 0;
+global.count = 0;
 
 cd =20;
 
