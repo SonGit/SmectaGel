@@ -7,7 +7,7 @@ if(isDraw)
 image_angle = point_direction(x,y,hx,hy)
 
 var w = sprite_get_width(spr_chain);
-var xx = lengthdir_x(w, image_angle), yy = lengthdir_y(w, image_angle);
+var xx = lengthdir_x(w, image_angle),yy = lengthdir_y(w, image_angle);
 var distance = point_distance(x, y, hx, hy);
 
 var count = distance div w;

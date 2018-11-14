@@ -17,7 +17,7 @@ for(i = 0 ; i <= argument0 ; i+=1)
     draw_circle(argument1,argument2,r/2,true) ;
     draw_circle(argument1,argument2,r/2,false) ;
     
-    col = make_color_rgb(255-i*2,i*2,0) ; 
+    col = make_color_rgb(255-i,i,0) ; 
     if (i !=0 and i != argument0)
     {
         draw_set_color(col) ; 
