@@ -5,4 +5,4 @@ if(0 < global.cur)
 	if(global.cur <100)
 	image_index = global.cur-1;
 	else image_index = 99;
-}
+}else image_index = 0;
