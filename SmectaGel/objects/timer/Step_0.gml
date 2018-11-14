@@ -6,7 +6,7 @@ if(!global.win&&!global.isSetting){
 	tmp -=1/room_speed;
 }
 if(tmp <=0&&!global.isSetting){
-	if(score >=5){
+	if(global.cur >=50){
 		global.win = true;
 	}
 		else 

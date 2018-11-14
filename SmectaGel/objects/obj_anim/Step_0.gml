@@ -9,7 +9,7 @@ if (global.scr > 0 && global.scr <100)
   {
 	  
    if( image_index+1<global.scr){
-   image_speed = 2;
+   image_speed = 4;
    }else  image_speed = 0;
    }
    
@@ -29,7 +29,7 @@ if(global.win == true){
 	if(image_index >=image_number-2){
 		room_goto(Scene_5);
 	}else {
-		image_speed = 2;
+		image_speed = 4;
 		}
 }
 
