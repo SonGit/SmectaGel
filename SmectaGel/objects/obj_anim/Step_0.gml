@@ -34,7 +34,7 @@ if(global.win == true){
 }
 
 if(global.count == 10){
-	if(global.scr >= 50)
+	if(global.cur >= 50)
 	{
 		global.win = true;
 	}
