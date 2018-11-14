@@ -1,24 +1,24 @@
 {
-    "id": "e1897cb3-34e5-410b-b718-594fc20d2cde",
+    "id": "453c454a-17b5-4ac8-a1b1-ea675b5a15cc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_show",
+    "name": "btn_gameover",
     "eventList": [
         {
-            "id": "f2d1f607-ee55-4848-ac5d-0decac1b3077",
+            "id": "f53b1c34-c985-422f-ae4a-b25fed6feba8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "e1897cb3-34e5-410b-b718-594fc20d2cde"
+            "m_owner": "453c454a-17b5-4ac8-a1b1-ea675b5a15cc"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": true,
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7cef79eb-60db-4d18-bcfc-e4919f4c9d3f",
-    "visible": false
+    "spriteId": "3dbe0ab6-f9c0-4f86-bd12-d36322bebbf9",
+    "visible": true
 }

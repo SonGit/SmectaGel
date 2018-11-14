@@ -38,6 +38,7 @@ if(global.count == 10){
 	{
 		global.win = true;
 	}
+	else
 	room_goto(Scene_4);
 }
 
