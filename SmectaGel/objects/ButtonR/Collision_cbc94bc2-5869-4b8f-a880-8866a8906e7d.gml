@@ -11,3 +11,4 @@ instance_destroy(arr);
 
 instance_destroy(self);
 global.count ++;
+audio_play_sound(snd_right, 10, false);
