@@ -3,4 +3,16 @@
 hp =100;
 curhp = hp;
 active = false;
-image_speed = random(5);
+image_speed = random_range(2,10);
+var i = irandom(2);
+switch (i)
+{
+	case 0: sprite_index = spr_v1; 
+	break;
+	
+	case 1: sprite_index = spr_v2; 
+	break;
+	
+	case 2: sprite_index = spr_v3; 
+	break;
+}
