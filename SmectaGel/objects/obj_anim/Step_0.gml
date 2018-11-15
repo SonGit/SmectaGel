@@ -38,7 +38,11 @@ if(global.count == 10){
 	{
 		global.win = true;
 	}
-	else
-	room_goto(Scene_4);
+	else{
+		if !audio_is_playing(snd_lose){
+		audio_play_sound(snd_lose, 10, false);
+		}
+		room_goto(Scene_4);
+	}
 }
 
