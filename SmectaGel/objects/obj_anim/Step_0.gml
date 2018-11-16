@@ -45,4 +45,3 @@ if(global.count == 10){
 		room_goto(Scene_4);
 	}
 }
-
