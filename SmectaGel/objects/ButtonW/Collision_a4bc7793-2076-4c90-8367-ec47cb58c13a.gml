@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.cur -= 20;	
+global.cur -= global.decre;	
 
 if(arr != noone){
 instance_destroy(arr);
