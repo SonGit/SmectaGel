@@ -34,5 +34,5 @@
         "minor": 0,
         "revision": 0
     },
-    "option_html5_webgl": 0
+    "option_html5_webgl": 2
 }
