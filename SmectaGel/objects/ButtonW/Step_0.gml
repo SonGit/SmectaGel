@@ -19,7 +19,6 @@ else
 	if(arr != undefined)
 	{
 		instance_destroy(arr);
-		show_debug_message("DESTROY");
 		image_alpha = .5;
 		arr = undefined;
 	}

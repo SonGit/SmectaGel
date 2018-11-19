@@ -9,7 +9,8 @@ global.scr =0;
 global.cur = 0;
 global.count = 0;
 
-cd =20;
+cd =4 * 1000000 ;
+showEndAnim = false;
 
 for (i = 0; i < instance_number(virus); i += 1)
    {

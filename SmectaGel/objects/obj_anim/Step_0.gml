@@ -30,24 +30,42 @@ if (global.scr > 0 && global.scr <100)
    
 }
    
-   
-stage = (image_index - 21) / 8;
+   if(image_index <100)
+   {
+	   stage = (image_index - 21) / 8;
 
-for(j = 0; j<stage;j++){
-	enemy[j].active = true;
-}
+		for(j = 0; j<stage;j++){
+
+		enemy[j].active = true;
+		}
 	
+   }
+
 if (global.scr >= 100)
 {
 	global.win = true;
 }
 
 if(global.win == true){
-	if(image_index >=image_number-2){
-		room_goto(Scene_5);
+		
+	if(image_index >=99){
+		showEndAnim = true;
 	}else {
 		image_speed = 4;
 		}
+}
+
+if(showEndAnim)
+{
+	cd -= delta_time;
+	if(cd < 0)
+	{
+		room_goto(Scene_5)
+	}
+	
+	if(image_index >= image_number - 2){
+			image_speed = 0;
+	}
 }
 
 if(global.count == 10){
