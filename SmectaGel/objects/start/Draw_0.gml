@@ -3,4 +3,4 @@
 draw_self();
 draw_set_font(UTM_Helve);
 draw_text(1221, 521, global.step );
-draw_text(1373, 574, "20" );
+draw_text(1373, 574, global.decre);
