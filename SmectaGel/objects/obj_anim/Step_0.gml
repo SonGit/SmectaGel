@@ -48,7 +48,7 @@ if (global.scr >= 100)
 
 if(global.win == true){
 		
-	if(image_index >=99){
+	if(image_index >=image_number-2){
 		showEndAnim = true;
 	}else {
 		image_speed = 4;
