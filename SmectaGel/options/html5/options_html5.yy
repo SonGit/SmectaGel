@@ -19,7 +19,7 @@
     "option_html5_interpolate_pixels": true,
     "option_html5_jsprepend": "",
     "option_html5_loadingbar": "Use Default",
-    "option_html5_localrunalert": true,
+    "option_html5_localrunalert": false,
     "option_html5_outputdebugtoconsole": true,
     "option_html5_outputname": "index.html",
     "option_html5_scale": 0,
@@ -34,5 +34,5 @@
         "minor": 0,
         "revision": 0
     },
-    "option_html5_webgl": 2
+    "option_html5_webgl": 0
 }
