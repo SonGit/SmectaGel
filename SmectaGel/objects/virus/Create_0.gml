@@ -3,7 +3,7 @@
 hp =100;
 curhp = hp;
 active = false;
-image_speed = random_range(2,5);
+image_speed = random_range(2,2.25);
 var i = irandom(2);
 switch (i)
 {
