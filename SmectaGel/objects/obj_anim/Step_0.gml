@@ -1,24 +1,41 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if(global.scr == 0 && image_index < 20)
+{
+	image_speed = 4;
+}
+
+if(global.scr == 0 && image_index > 20)
+{
+	image_speed = 0;
+}
+
+
 if(global.cur>global.scr)
 {
 	global.scr = global.cur;
 }
 
 if (global.scr > 0 && global.scr <100)
-  {
+{
 	  
-   if( image_index+1<global.scr){
-   image_speed = 4;
-   }else  image_speed = 0;
+   if( (image_index+1) - 20 < (global.scr * 82)/100 ){
+	 image_speed = 4;
+   }
+   else  
+   {
+	 image_speed = 0;  
    }
    
+}
    
-stage = image_index / 10;
+   
+stage = (image_index - 21) / 8;
 
 for(j = 0; j<stage;j++){
 	enemy[j].active = true;
-	}
+}
 	
 if (global.scr >= 100)
 {
